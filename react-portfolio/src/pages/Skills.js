@@ -1,13 +1,13 @@
 import React from "react";
 
-function Connect() {
+function Skills() {
     return (
         <div>
 
             <div className="row">
                 <div className="col-md-12">
                     <p>
-                        CONNECT LINKS AND RESUME
+                        TECH SKILLS HERE
                     </p>
                 </div>
             </div>
@@ -18,4 +18,4 @@ function Connect() {
     );
 }
 
-export default Connect;
+export default Skills;
