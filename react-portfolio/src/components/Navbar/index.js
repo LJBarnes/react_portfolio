@@ -2,15 +2,15 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
 
-
+// navbar-right class not working...why?
 function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-md">
       <Link className="navbar-brand" to="/">
         Leah J. Barnes
       </Link>
       <div>
-        <ul className="navbar-nav justify-content-end">
+        <ul className="nav navbar-nav navbar-right">
           <li className="nav-item">
             <Link
               to="/"
