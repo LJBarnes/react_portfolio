@@ -1,45 +1,38 @@
 import React from "react";
+import "./style.css";
+
+
 
 function About() {
     return (
         <div>
 
-            <h1>Hi There! I'm Leah.</h1>
-            <h2>A front end developer from Charlotte, NC.</h2>
+<div class="jumbotron">
+        <h1>Hi there!</h1>
+        <p>I'm Leah, a front end web developer in Charlotte, NC.</p>
+    </div>
 
-
-            <div className="row">
-                <div className="col-md-12">
-                    <h1>A little about me:</h1>
+    <div class="container-fluid" div id="about">
+        <div class="row">
+            <div class="col-sm-12 col-md-8">
+                <div class="wrapper">
+                    <span class="align-middle">
+                        <h2 id="about-me">A Little About Me</h2>
+                        <p id="abm-content">I transitioned into tech from the design world and love putting my past art
+                            experience to use creating dynamic websites and applications. After completing a certificate in Full Stack Development from the University 
+                            of North Carolina at Charlotte, my specialities include HTML, CSS, Bootstrap, JavaScript, APIs, JQuery, MySQL, MongoDB, and React. 
+                            I am dedicated to constantly learning and implementing current technologies. What I enjoy most about web development is blending my creative and technical 
+                            skills to build web experiences that are both effective and enjoyable.</p>
+                            <p>When I'm not coding, you can probably find me listening to a good podcast, reading (I dig Sci-Fi and Fantasy most), exploring nature trails up on the Blue Ridge, and
+                             hanging out with my awesome husband and our two corgis.</p>
+                    </span>
                 </div>
             </div>
-
-            <div className="row">
-                <div className="col-md-12">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
-                        consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis
-                        parturient montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus
-                        sollicitudin at et metus. Ut feugiat tellus nec metus commodo, sed suscipit nisi
-                        gravida. Duis eget vestibulum quam, ut porttitor sem. Donec sagittis mi sollicitudin
-                        turpis semper, et interdum risus lobortis. Vestibulum suscipit nunc non egestas
-                        tristique. Proin hendrerit efficitur malesuada. Mauris lorem urna, sodales accumsan
-                        quam non, tristique tempor erat. Nullam non sem facilisis, tempus tortor sit amet,
-                        volutpat nisl. Ut et turpis non nunc maximus mollis a vitae tortor. Pellentesque
-                        mattis risus ac quam laoreet cursus. Praesent suscipit orci neque, vestibulum
-                        tincidunt augue tincidunt non. Duis consequat mattis tortor vitae mattis.
-                    </p>
-                    <p>
-                        Phasellus at rutrum nisl. Praesent sed massa ut ipsum bibendum porttitor. Sed
-                        malesuada molestie velit ac viverra. Quisque a ullamcorper purus. Curabitur luctus mi
-                        ac mi hendrerit semper. Nulla tincidunt accumsan lobortis. Mauris convallis sapien non
-                        nibh porta accumsan. Nunc volutpat tempus porttitor. Nunc congue dictum egestas.
-                        Aliquam blandit mi eu urna scelerisque, vitae volutpat ligula ultricies. Maecenas vel
-                        porta augue. Fusce mauris ex, dignissim et lacinia ut, tempus eget nibh.
-                    </p>
-                </div>
+            <div class="col-sm-12 col-md-4">
+            <img alt="profile-img" src="../public/assets/images/leah2.jpg" />
             </div>
-
+        </div>
+    </div>
         </div>
     );
 }

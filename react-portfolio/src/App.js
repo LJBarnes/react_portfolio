@@ -5,9 +5,11 @@ import Connect from "./pages/Connect";
 import Skills from "./pages/Skills";
 import Portfolio from "./pages/Portfolio";
 import Navbar from "./components/Navbar";
+// import TestNavbar from "./components/TestNavbar";
 import Footer from "./components/Footer";
 // import Projects from "./components/Projects";
 import Wrapper from "./components/Wrapper";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
