@@ -5,18 +5,18 @@ import "./style.css";
 
 function About() {
     return (
-        <div>
+        <>
 
-<div class="jumbotron">
+<div className="jumbotron">
         <h1>Hi there!</h1>
         <p>I'm Leah, a front end web developer in Charlotte, NC.</p>
     </div>
 
-    <div class="container-fluid" div id="about">
-        <div class="row">
-            <div class="col-sm-12 col-md-8">
-                <div class="wrapper">
-                    <span class="align-middle">
+    <div className="container-fluid" id="about">
+        <div className="row">
+            <div className="col-sm-12 col-md-8">
+                <div className="wrapper">
+                    <span className="align-middle">
                         <h2 id="about-me">A Little About Me</h2>
                         <p id="abm-content">I transitioned into tech from the design world and love putting my past art
                             experience to use creating dynamic websites and applications. After completing a certificate in Full Stack Development from the University 
@@ -28,12 +28,12 @@ function About() {
                     </span>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-4">
-            <img alt="profile-img" src="../public/assets/images/leah2.jpg" />
+            <div className="col-sm-12 col-md-4">
+            <img alt="profile-img" src="/assets/images/leah.jpg" />
             </div>
         </div>
     </div>
-        </div>
+        </>
     );
 }
 
