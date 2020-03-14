@@ -82,7 +82,7 @@ The goal of this app is to cut down on pet re-homing after adoption.
                         called "shelves". The books can then be moved between shelves or
                         deleted at user's discretion. Built with Google Books API, Node.js, Express.js,
                         Handebars.js, Bulma, MVC Design Pattern,
-                        Passport.js, MySQL and Sequelize..</CardText>
+                        Passport.js, MySQL and Sequelize.</CardText>
            <span><button className="button"><a href="https://aqueous-refuge-48419.herokuapp.com/" className="light-link">Demo</a></button> <button className="button"><a href="https://github.com/taylormbruno/project2" className="light-link">Code</a></button> </span>
         </CardBody>
       </Card>
