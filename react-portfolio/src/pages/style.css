@@ -25,6 +25,10 @@
      height: 100%;
      overflow-x:hidden
     }   
+
+  .margin {
+    margin-top: 20px
+  }
   
   .light-link {
   color: white;
