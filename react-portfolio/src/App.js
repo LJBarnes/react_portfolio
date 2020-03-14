@@ -10,6 +10,7 @@ import Footer from "./components/Footer";
 // import Projects from "./components/Projects";
 import Wrapper from "./components/Wrapper";
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

@@ -9,6 +9,8 @@
     padding: 60px 50px;
     text-align: center;
    }
+   
+   
   
   .light-link {
   color: white;
@@ -16,6 +18,33 @@
 
   .dark-link {
       color:#a53860;
+      font-size: 18px;
+  }
+  .dark-link:hover{
+    color:#4c3b4d
+  }
+
+  .light-link:hover{
+    color:white;
+    text-decoration: none;    
+  }
+
+  .button {
+    background-color: #a53860; 
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius:4px
+  }
+
+  .button:hover {
+    background-color: #ada8b6; 
+    color: #4c3b4d;
+    
   }
   
   .pink-text {
@@ -28,11 +57,18 @@
   }
   
 
-  
-  footer {
-  background: #4c3b4d;
-  color: white;
+  .first, .second{
+    margin-top: 20px;
   }
+
+  .title{
+    font-size: 22px;
+  }
+  .text{
+    font-size: 18px;
+  }
+
+  .card {display:inline-block;}
   
   a:hover {
   color: #a53860;
@@ -44,10 +80,11 @@
     margin: 15px auto;
   }
 
-  #bio-img {
-      width: 20%;
+  .profile-img {
+      width: 60%;
       height: auto;
       border-radius: 50%;
+      
   }
   
   #about-me {
@@ -59,14 +96,18 @@
   }
 
   p {
-    font-size: 18px;
+    font-size: 22px;
   }
+
+  
 
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
+
+ 
   
   
   /* Tablet Styles */

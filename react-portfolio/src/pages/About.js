@@ -9,12 +9,12 @@ function About() {
 
 <div className="jumbotron">
         <h1>Hi there!</h1>
-        <p>I'm Leah, a front end web developer in Charlotte, NC.</p>
+        <p class>I'm Leah, a front end web developer in Charlotte, NC.</p>
     </div>
 
     <div className="container-fluid" id="about">
-        <div className="row">
-            <div className="col-sm-12 col-md-8">
+        <div className="row h-100">
+            <div className="col-sm-12 col-md-8 my-auto">
                 <div className="wrapper">
                     <span className="align-middle">
                         <h2 id="about-me">A Little About Me</h2>
@@ -28,8 +28,8 @@ function About() {
                     </span>
                 </div>
             </div>
-            <div className="col-sm-12 col-md-4">
-            <img alt="profile-img" src="/assets/images/leah.jpg" />
+            <div className="col-sm-12 col-md-4 ">
+            <img alt="profile-img" src="/assets/images/leah.jpg" className="profile-img" />
             </div>
         </div>
     </div>
