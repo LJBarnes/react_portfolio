@@ -25,14 +25,6 @@ function Navbar() {
           </li>
           <li className="nav-item">
             <Link
-              to="/Skills"
-              className={window.location.pathname === "/Skills" ? "nav-link active" : "nav-link"}
-            >
-              Specialities
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link
               to="/Portfolio"
               className={window.location.pathname === "/Portfolio" ? "nav-link active" : "nav-link"}
             >
