@@ -2,9 +2,9 @@ import React from "react";
 
 function Skills() {
     return (
-        <div>
+        <div className="content">
 
-            <div className="row">
+            <div className="row h-100">
                 <div className="col-md-12">
                     <p>
                         TECH SKILLS HERE

@@ -4,6 +4,10 @@
     text-align: center;
     background: #4c3b4d;
     color: white;
+    position: absolute;
+    left:0;
+    bottom: 0;
+    right: 0
     }
   
   
@@ -15,4 +19,6 @@
     padding: 3px;
     background: #4c3b4d;;
   }
+
+  html, body { height: 100% }
   

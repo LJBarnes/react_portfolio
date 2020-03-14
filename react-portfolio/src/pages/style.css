@@ -1,5 +1,5 @@
 .jumbotron {
-    background-color: #4c3b4d;
+    background-color: #4c3b4d !important;
     color: #ffffff;
     text-align: center;
     padding: 100px 25px;
@@ -10,7 +10,10 @@
     text-align: center;
    }
    
-   
+   html, body { 
+     height: 100%;
+     overflow-x:hidden
+    }   
   
   .light-link {
   color: white;

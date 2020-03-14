@@ -22,5 +22,5 @@
     border-color: transparent;
     color: #4c3b4d !important;
   }
-
+  html, body { height: 100% }
   
