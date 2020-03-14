@@ -14,7 +14,7 @@ const Portfolio = (props) => {
       <Col>
     <CardDeck>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="/assets/images/password.jpg" alt="password-generator" />
         <CardBody>
           <CardTitle className="title">Password Generator</CardTitle>
           <CardText className="text">Built with HTML, CSS, and JavaScript, this application prompts users to specify the criteria for their password. A random password is then generated according to their specifications.</CardText>
@@ -22,7 +22,7 @@ const Portfolio = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="/assets/images/weather.jpg" alt="weather-dashboard" />
         <CardBody>
           <CardTitle className="title">Weather Dashboard</CardTitle>
           
@@ -33,7 +33,7 @@ const Portfolio = (props) => {
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="/assets/images/dayplan.jpg" alt="day-planner" />
         <CardBody>
           <CardTitle className="title">Day Planner</CardTitle>
           
@@ -51,7 +51,7 @@ const Portfolio = (props) => {
       <Col>
     <CardDeck>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="/assets/images/furever.jpg" alt="furever-home" />
         <CardBody>
           <CardTitle className="title">FurEver Home</CardTitle>
           <CardText className="text">Potential pet adopters can search for information and images
@@ -62,7 +62,7 @@ The goal of this app is to cut down on pet re-homing after adoption.
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="/assets/images/burger.jpg" alt="eat-da-burger" />
         <CardBody>
           <CardTitle className="title">Eat Da Burger</CardTitle>
           
@@ -74,7 +74,7 @@ The goal of this app is to cut down on pet re-homing after adoption.
         </CardBody>
       </Card>
       <Card>
-        <CardImg top width="100%" src="/assets/256x186.svg" alt="Card image cap" />
+        <CardImg top width="100%" src="/assets/images/shelfie.jpg" alt="shelfie" />
         <CardBody>
           <CardTitle className="title">Shelfie</CardTitle>
            <CardText className="text">This virtual library allows users to create their own account to orgainize and catalog
